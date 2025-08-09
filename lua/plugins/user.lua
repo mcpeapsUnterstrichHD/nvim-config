@@ -22,15 +22,36 @@ return {
   },
 
   -- GitHub Copilot Plugin (copilot.vim)
-  "github/copilot.vim",
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
 
   -- == Examples of Overriding Plugins ==
-  "lewis6991/gitsigns.nvim",
-  "akinsho/toggleterm.nvim",
-  "windwp/nvim-autopairs",
-  "RRethy/vim-illuminate",
-  "folke/todo-comments.nvim",
-  "AstroNvim/astrotheme",
+  {
+    "lewis6991/gitsigns.nvim",
+    lazy = false,
+  },
+  {
+    "akinsho/toggleterm.nvim",
+    lazy = false,
+  },
+  {
+    "windwp/nvim-autopairs",
+    lazy = false,
+  },
+  {
+    "RRethy/vim-illuminate",
+    lazy = false,
+  },
+  {
+    "folke/todo-comments.nvim",
+    lazy = false,
+  },
+  {
+    "AstroNvim/astrotheme",
+    lazy = false,
+  },
   -- customize dashboard options
   {
     "folke/snacks.nvim",
