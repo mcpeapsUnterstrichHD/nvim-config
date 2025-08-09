@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason
 
@@ -13,12 +13,32 @@ return {
       ensure_installed = {
         -- install language servers
         "lua-language-server",
+        "css-lsp",
+
+        "html-lsp",
+        "json-lsp",
+        "typescript-language-server",
 
         -- install formatters
         "stylua",
+        "prettier",
+        "shfmt",
+        "black",
+        "isort",
+        "clang-format",
+        "sql-formatter",
+        "rustfmt",
 
         -- install debuggers
         "debugpy",
+        "codelldb",
+        "java-debug-adapter",
+
+        -- install linters
+        "shellcheck",
+        "eslint_d",
+        "flake8",
+        "mypy",
 
         -- install any other package
         "tree-sitter-cli",

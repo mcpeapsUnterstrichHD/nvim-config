@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+--if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Treesitter
 
@@ -9,6 +9,25 @@ return {
     ensure_installed = {
       "lua",
       "vim",
+      "bash",
+      "c",
+      "cpp",
+      "css",
+      "dockerfile",
+      "html",
+      "javascript",
+      "json",
+      "markdown",
+      "markdown_inline",
+      "python",
+      "regex",
+      "rust",
+      "sql",
+      "typescript",
+      "tsx",
+      "yaml",
+      "java",
+
       -- add more arguments for adding more treesitter parsers
     },
   },
