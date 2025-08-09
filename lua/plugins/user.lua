@@ -25,7 +25,12 @@ return {
   "github/copilot.vim",
 
   -- == Examples of Overriding Plugins ==
-
+  "lewis6991/gitsigns.nvim",
+  "akinsho/toggleterm.nvim",
+  "windwp/nvim-autopairs",
+  "RRethy/vim-illuminate",
+  "folke/todo-comments.nvim",
+  "AstroNvim/astrotheme",
   -- customize dashboard options
   {
     "folke/snacks.nvim",
